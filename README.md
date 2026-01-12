@@ -67,3 +67,11 @@ find_similarity_face/
     ├── c.jpg
     ├── d.jpg
     └── f.jpg
+
+## Score
+```bash
+< 0.60   → different people
+0.60–0.72 → look-alike / possibly related
+> 0.75   → likely same person
+> 0.82   → almost certainly same person
+```

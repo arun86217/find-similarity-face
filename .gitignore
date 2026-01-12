@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (do NOT commit large models)
+models/
+*.onnx
+*.pth
+
+# InsightFace cache (never commit)
+.insightface/
+
+# local directory
+models
+storage
+
+
